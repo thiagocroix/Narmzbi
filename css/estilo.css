@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond');
+
+body {
+    width: 1366px;
+    height: 768px;
+    
+background: -moz-linear-gradient(top,  #010207 0%, #180825 50%, #14052C 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#010207), color-stop(50%,#180825),  color-stop(100%,#14052C));
+background: -webkit-linear-gradient(top,  #010207 0%,#180825 50%,#14052C 100%); 
+background: -o-linear-gradient(top,  #010207 0%,#180825 50%,#14052C 100%);
+background: -ms-linear-gradient(top,  #010207 0%,#180825 50%,#14052C 100%);
+
+overflow: hidden;
+}
+
+#titulo {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 8.3%;
+}
+
+#mascara {
+
+position: relative;
+top: 16%;
+
+}
+
+#conteudo {
+
+    width: 542px;
+    height: 656px;
+    position: relative;
+    bottom:60%;
+    left: 40%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 80px;
+}
+
+#convite{
+    font-family: 'Dancing Script', cursive;
+}
+
+#endereco {
+
+    font-family: 'EB Garamond', serif;
+}
+
+#botao{
+    background-color: transparent;
+    font-size: 30px;
+    border-radius: 20px;
+    border:double;
+    border-color: aquamarine;
+    color:aqua;
+    padding: 10px;
+
+}
